@@ -1,0 +1,18 @@
+plugins {
+    id 'idea'
+    id 'java'
+
+}
+
+repositories {
+    mavenCentral()
+}
+
+version = '0.0.1'
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+dependencies {
+}
